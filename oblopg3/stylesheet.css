@@ -1,0 +1,186 @@
+:root {
+    --main-bg-color: rgb(253, 195, 129);
+    --dark-bg-color: rgb(122, 65, 8);
+    --light-bg-color: rgb(255, 186, 91);
+    --medium-bg-color: rgb(217, 139, 50);
+    --light-text-color: rgb(255, 171, 75);
+    --hover-light-text-color: rgb(186, 103, 8);
+    --hover-btn-color: rgb(73, 39, 5);
+    --active-btn-color: rgb(197, 118, 27);
+    --dark-text-color: rgb(111, 64, 9);
+
+    --font-fam: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.products .container-fluid {
+    max-width: 910px;
+}
+
+.products {
+    margin-bottom: 20px;
+}
+
+.newsfeed .container-fluid {
+    max-width: 910px;    
+}
+
+.about .container-fluid {
+    max-width: 910px;
+    padding-bottom: 50px;
+}
+
+.about {
+    background-color: var(--dark-bg-color);
+    color: var(--light-text-color);
+}
+
+.carousel {
+    margin-top: 25px;
+    box-shadow: 0px 0px 15px 3px;
+}
+
+.newsfeed {
+    background-color: var(--main-bg-color);
+}
+
+
+#scroll-down-icon {
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+body {
+    padding-top: 65px;
+}
+
+h1 {
+    color: var(--light-text-color);
+}
+
+h3 {
+    padding-top: 30px;
+    color: var(--dark-text-color);
+    font-family: var(--font-fam);
+    font-weight: bold;
+}
+
+nav {
+    background-color: var(--dark-bg-color);
+    /* box-shadow: 0 0 5px 2px; */
+}
+
+nav .navbar-brand {
+    color: var(--light-text-color);
+    margin: 6px;
+    font-family: var(--font-fam)
+}
+
+nav .navbar-brand:hover {
+    color: var(--hover-light-text-color);
+}
+
+nav .navbar-nav li a {
+    color: var(--light-text-color);
+    font-family: var(--font-fam);
+}
+
+nav .navbar-nav li a:hover {
+    color: var(--hover-light-text-color);
+}
+
+nav .navbar-nav li a:focus {
+    color: var(--hover-light-text-color);
+    text-decoration: underline;
+}
+
+nav .navbar-nav .nav-item {
+    margin: 6px;
+}
+
+#checkout {
+    color: var(--light-text-color);
+    font-family: var(--font-fam);
+}
+
+#checkout:hover {
+    color: var(--hover-light-text-color);
+}
+
+#navbar-toggler-img {
+    width: 30px;
+}
+
+nav .navbar-toggler {
+    color: var(--light-text-color);
+}
+
+nav .dropdown-menu {
+    background-color: var(--light-text-color);
+    border-color: var(--dark-text-color);
+    border-width: 2px;
+}
+
+nav .dropdown-menu .dropdown-item {
+    color: var(--dark-text-color);
+}
+
+nav .dropdown-menu .dropdown-item:hover {
+    color: var(--light-text-color);
+}
+
+nav .dropdown-item:hover {
+    background-color: var(--dark-text-color);
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+    border-width: 0px;
+    border-color: rgb(100, 53, 2);
+    box-shadow: 0px 0px 10px 2px;
+}
+
+.card .card-body {
+    min-width: 200px;
+    width: 100%;
+    background-color: var(--hover-light-text-color);
+}
+
+.card .card-body .btn:hover {
+    background-color: white;
+    color: var(--dark-text-color);
+    border-width: 0px;
+}
+
+.card .card-body .btn {
+    background-color: var(--hover-btn-color);
+    color: var(--light-bg-color);
+    border-width: 0px;
+}
+
+.card .card-body .btn:active {
+    background-color: var(--active-btn-color);
+}
+
+.btn:focus,
+.btn:active:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+@media only screen and (max-width: 576px) {
+    #news1 {
+        content:url("images/analog_news1.jpg");
+    }
+    #news2 {
+        content:url("images/analog_news2.jpg");
+    }
+    #news3 {
+        content:url("images/analog_news3.jpg");
+    }
+}
+

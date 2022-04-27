@@ -1,0 +1,73 @@
+:root {
+    --main-bg-color: rgb(255, 230, 202);
+    --dark-bg-color: rgb(122, 65, 8);
+    --light-bg-color: rgb(255, 195, 126);
+    --medium-bg-color: rgb(217, 139, 50);
+    --light-text-color: rgb(255, 171, 75);
+    --hover-light-text-color: rgb(186, 103, 8);
+    --hover-btn-color: rgb(73, 39, 5);
+    --active-btn-color: rgb(197, 118, 27);
+    --dark-text-color: rgb(111, 64, 9);
+
+    --font-fam: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: var(--light-bg-color);
+}
+
+h1 {
+    color: var(--dark-text-color);
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 20vh;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn {
+    background-color: var(--dark-bg-color);
+    color: var(--light-text-color);
+    border-color: var(--light-bg-color);
+    margin-bottom: 10px;
+}
+.btn:hover {
+    background-color: rgba(122, 65, 8, 0.771);
+    color: var(--light-text-color);
+    border-color: var(--light-bg-color);
+}
+
+.google {
+    background-color: white;
+}
+.google:hover {
+    background-color: rgba(255, 255, 255, 0.666);
+}
+.google:focus {
+    background-color: rgba(255, 255, 255, 0.666);
+}
